@@ -2,25 +2,25 @@
 font-family: 'Playball', cursive;
 font-family: 'Roboto', sans-serif; */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.nav{
+.nav {
     position: relative;
 }
 
-.nav{
+.nav {
     height: 45vh;
     background-image: url(../images/green-field.jpg);
 }
 
-.nav nav{
-display: flex;
+.nav nav {
+    display: flex;
 }
 
-.nav nav{
+.nav nav {
     padding-top: 7px;
     color: rgb(38, 8, 95);
     font-weight: 700;
@@ -30,14 +30,15 @@ display: flex;
 .nav nav>a {
     left: 5px;
     text-decoration: none;
-    font-family: 'Great Vibes', cursive;    
+    font-family: 'Great Vibes', cursive;
     font-size: 25px;
 }
 
-.nav ul{
+.nav ul {
     list-style: none;
 }
-.nav ul li a{
+
+.nav ul li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -46,7 +47,7 @@ display: flex;
 
 }
 
-.slogan{
+.slogan {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,20 +56,20 @@ display: flex;
     flex-direction: column;
 }
 
-.slogan h3{
+.slogan h3 {
     font-family: 'Playball', cursive;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.slogan h1{
+.slogan h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-align: center;
 }
 
-.slogan a{
+.slogan a {
     text-align: center;
     text-decoration: none;
     border: 1px rgb(90, 116, 231) solid;
@@ -82,7 +83,7 @@ display: flex;
     transition: .6s;
 }
 
-.slogan a:hover{
+.slogan a:hover {
     background-color: white;
     border: 1px white;
     color: rgb(90, 116, 231);
