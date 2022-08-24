@@ -17,6 +17,7 @@ body .wrapper {
 
 
 .nav {
+    position: relative;
     height: 45vh;
     background-image: url(../images/green-field.jpg);
     background-repeat: no-repeat;
@@ -52,15 +53,23 @@ body .wrapper {
 }
 
 .nav.container {
-    position: relative;
+    position: absolute;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
 }
 
 .slogan {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    // background-color: gold;
 
 }
 
@@ -78,16 +87,17 @@ body .wrapper {
 }
 
 .slogan a {
+    // position: absolute;
     text-align: center;
-    text-decoration: none;
-    border: 1px rgb(90, 116, 231) solid;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1.3px;
-    border-radius: 4px;
-    padding: 10px 20px;
     margin: 20px auto;
-    background-color: rgb(90, 116, 231);
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
     color: white;
+    background-color: rgb(90, 116, 231);
+    border: 1px rgb(90, 116, 231) solid;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 1.3px;
     transition: .6s;
 }
 
